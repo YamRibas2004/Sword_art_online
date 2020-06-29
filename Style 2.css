@@ -1,0 +1,95 @@
+body {
+background-image: url(imagens@/Fundo18.jpg);
+}
+figure.foto-legenda {
+    border: 8px solid rgba(217, 226, 220, 0);
+    box-shadow: 1px 1px 4px black}
+
+figure.foto-Kirito{  
+    border: 8px solid rgba(217, 226, 220, 0);
+    box-shadow: 1px 1px 4px black;
+}
+figcaption.Legenda-Kirito {
+    opacity: 0;
+    position: relative;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: rgb(0, 0, 0);
+    width: 25%; height: 25%;
+    transition: opacity 0.7s;
+   
+}
+figcaption.Legenda-Kirito:hover {
+    opacity: 1;
+}
+
+b#piu{
+    font-size: 20pt;
+    color: rgba(0, 0, 0, 0.842);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+div#interface{
+    width: 1300px;
+    
+    margin: -30px auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.849);
+    padding: 10px ;
+    }
+
+    
+footer#rodape{
+    clear:both;
+    border-top: 1px solid rgba(0, 0, 0, 0.692);
+    
+    }
+
+    /* Formatação do Menu */
+
+    nav#menu{
+        display: block;
+        
+                }
+        
+                nav#menu ul {
+        list-style: none;
+        text-transform: uppercase;
+        position: absolute;
+        top: -20px;
+        left: 100px;
+        
+        
+                }
+        
+               
+                nav#menu li {
+                    display: inline-block;
+                    background-color:#dddddd;
+                    padding: 10px;
+                    margin: 2px
+                            }
+        
+                            nav#menu li:hover{
+        background-color:  rgba(173, 167, 167, 0.664);
+        
+                            }
+        
+                            nav#menu h1{
+        display: none;
+        
+                            }
+        
+                            nav#menu a{
+        color:#000000;
+        text-decoration: none;
+        
+                            }
+                            nav#menu a:hover {
+                               color: rgba(0, 0, 0, 0.61);
+                  
+        
+        
+                            }
+        
+        
+        
+               

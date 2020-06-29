@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+    body {
+        background-color: rgb(0, 162, 255);
+background-image: url(imagens@/Fundo10.jpg);
+    }
+
+div#interface{
+width: 1300px;
+
+margin: -30px auto 0px auto;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+padding: 10px ;
+}
+
+a {
+color: #303235ad;
+text-decoration: none;
+font-size: 15px;
+}
+
+
+
+a:hover{
+text-decoration: underline;
+}
+
+footer#rodape{
+clear:both;
+border-top: 1px solid rgba(0, 0, 0, 0.692);
+text-align: center;
+
+}
+    p {
+        text-align: justify;
+        text-indent: 50px;
+    }
+
+    /*Formatação de imagens com legendas*/
+    
+   
+    figcaption.atualização{
+        opacity: 0;
+        background-color: rgba(0, 0, 0, 0.425);
+        color: black;
+        position: relative;
+        top: 40px;
+        
+       
+        width: 15%; height: 15%;
+        transition: opacity 0.7s;
+    }
+        figcaption.atualização:hover{
+            opacity: 1;
+
+        }
+
+        /* Formatação do Menu */
+
+        nav#menu{
+display: block;
+
+        }
+
+        nav#menu ul {
+list-style: none;
+text-transform: uppercase;
+position: absolute;
+top: -20px;
+left: 100px;
+
+
+        }
+        
+        nav#menu li {
+            display: inline-block;
+            background-color:#ffffff;
+            padding: 10px;
+            margin: 2px
+                    }
+
+                    .menu-fixo{
+position:fixed;
+top: 0;
+top:0;
+z-index: 999;
+width: 100%;
+                    }
+
+                    nav#menu li:hover{
+background-color:  rgba(98, 144, 243, 0.856);;
+                    }
+
+                    nav#menu h1{
+display: none;
+
+                    }
+
+                    nav#menu a{
+color:#000000;
+text-decoration: none;
+
+                    }
+                    nav#menu a:hover {
+                       color: rgba(0, 0, 0, 0.61);
+          
+
+
+                    }
+                    
+
+
+
+
+        
+       
+       
+        
+    
+
+    
+        
+    
+        
+    

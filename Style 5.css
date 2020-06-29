@@ -1,0 +1,84 @@
+body {
+    background-image: url(imagens@/Fundo7.png);
+    }
+
+    div#interface{
+      width: 1300px;
+      
+      margin: -30px auto 0px auto;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.849);
+      padding: 10px ;
+      }
+
+
+      footer#rodape{
+        clear:both;
+        border-top: 1px solid rgba(0, 0, 0, 0.692);
+        
+        }
+
+      /* Formatação do Menu */
+
+      font#facefont{
+
+        font-size: 13pt;
+        color: rgb(0, 0, 0);
+        text-shadow: 1px 1px 1px #00000044;
+      }
+      h1#H1{
+        font-size: 35pt;
+        color: rgba(0, 0, 0, 0.842);
+        text-shadow: 1px 1px 1px #0000004d;
+      }
+
+      li#lista{
+        font-size: 20pt;
+        color: rgba(0, 0, 0, 0.842);
+        text-shadow: 1px 1px 1px #0000004f;
+      }
+
+      nav#menu{
+        display: block;
+        
+                }
+        
+                nav#menu ul {
+        list-style: none;
+        text-transform: uppercase;
+        position: absolute;
+        top: -20px;
+        left: 100px;
+        
+        
+                }
+        
+               
+                nav#menu li {
+                    display: inline-block;
+                    background-color:#dddddd;
+                    padding: 10px;
+                    margin: 2px
+                            }
+        
+                            nav#menu li:hover{
+        background-color:  rgba(156, 189, 252, 0.767);
+        
+                            }
+        
+                            nav#menu h1{
+        display: none;
+        
+                            }
+        
+                            nav#menu a{
+        color:#000000;
+        text-decoration: none;
+        
+                            }
+                            nav#menu a:hover {
+                               color: rgba(0, 0, 0, 0.61);
+                  
+        
+        
+                            }
+         
